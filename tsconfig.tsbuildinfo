@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/faketaskapi.ts","./src/components/taskfilters.tsx","./src/components/taskform.tsx","./src/components/taskitem.tsx","./src/components/tasklist.tsx","./src/components/tasksearch.tsx","./src/logic/taskfiltering.ts","./src/logic/tasksorting.ts","./src/logic/taskvalidation.ts","./src/types/task.ts"],"version":"5.9.3"}
