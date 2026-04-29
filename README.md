@@ -46,5 +46,33 @@ npm run build
 npm run preview
 ```
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Running tests
+
+```bash
+npm run test:unit
+npm run test:e2e
+```
+
+### Tradeoffs
+
+I am currently covering the happy path and hitting 2 critical bugs that I think take priority. 
+
+What I cover:
+    - Delete not persisting
+    - Completion not persisting
+
+What I am currently leaving uncovered:
+    - Edit tasks
+    - Search 
+    - Filter tabs
+    - Error banner 
+These are still documented within BUGS_REPORT.md
+The unpicked bugs and issues are lower severity or have a workaround.
+
+### Gaps
+
+1. No maximum title length defined, a user could paste an entire essay into the title field.
+2. TTB-9 says that banners should auto-dismiss after "roughly 3 seconds", roughly isn't a testable number.
+3. No ticket for error states on the initial load.
